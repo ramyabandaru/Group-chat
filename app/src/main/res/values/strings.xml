@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="serv">SERVER</string>
+    <string name="clie">CLIENT</string>
+    <string name="msg">enter ur message here</string>
+    <string name="send">Name</string>
+    <string name="clear">Clear</string>
+    <string name="send1">Send</string>
+    <string name="text">Dare to Share</string>
+    <string name="mess">Enter ur message</string>
+    <string name="add">dstAddress</string>
+    <string name="port">dstPort</string>
+    <string name="connect">Connect...</string>
+    <string name="clear1">Clear</string>
+    <string name="sen">Send</string>
+
+</resources>

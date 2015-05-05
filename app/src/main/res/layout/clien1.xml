@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send1"
+        android:id="@+id/send"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/message"
+        android:layout_centerHorizontal="true"
+        android:onClick="sending" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:width="350dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="280dp">
+        <LinearLayout
+            android:id="@+id/mainbody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:id="@+id/response" />
+            <!--Add the rest of you views here possibly changing 'mainbody'
+            to be a RelativeLayout depending on the rest of your layout-->
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/send"
+        android:layout_alignLeft="@+id/send"
+        android:layout_alignStart="@+id/send"
+        android:layout_marginTop="32dp"
+        android:onClick="clear1" />
+
+</RelativeLayout>
